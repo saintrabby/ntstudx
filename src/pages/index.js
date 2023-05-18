@@ -13,6 +13,7 @@ export default function Home() {
   const dispatch = useDispatch()
 
   useEffect(() => {
+    console.log(JSON.stringify([1, 2, 3]))
     dispatch(increment())
   }, [])
 
