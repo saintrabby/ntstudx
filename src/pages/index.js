@@ -13,7 +13,7 @@ export default function Home() {
   const dispatch = useDispatch()
 
   useEffect(() => {
-    console.log('im sec');
+    console.log(JSON.stringify([1, 2, 3]))
     dispatch(increment())
   }, [])
 
