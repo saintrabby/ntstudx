@@ -13,7 +13,7 @@ export default function Home() {
   const dispatch = useDispatch()
 
   useEffect(() => {
-    console.log('im sec');
+    console.log('im secon');
     dispatch(increment())
   }, [])
 
