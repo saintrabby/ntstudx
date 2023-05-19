@@ -14,7 +14,7 @@ export default function Home() {
 
   useEffect(() => {
     console.log(JSON.stringify([1, 2, 3]))
-    console.log('im dev');
+    console.log('im deve');
     dispatch(increment())
   }, [])
 
